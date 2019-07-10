@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../ex.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+
+.title a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+	font-size: 30px;
+
+}
+
+.title a:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.title h1{
+	color: #000;
+	font-size: 70px;
+
+}
+
+.ind{
+	position: relative;
+	margin: 10px auto;
+	padding: 0;
+	width: 100%;
+	height: auto;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 30px;
+	background-image: url(../ex2.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.ind th{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+	font-size: 30px;
+
+}
+
+
+.ind th:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	text-decoration: none;
+	background-color: #000;
+	color: #fff;
+	transition: 0.6s ease;
+	
+}
+
+.btn:hover{
+	background-color: #1E90;
+	color: #000;
+}
